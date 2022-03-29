@@ -1,5 +1,5 @@
 import './App.css';
-import BusinessCard from './components/BusinessCard.js'
+import BusinessCard from './components/BusinessCard.jsx'
 
 function App() {
   return (
