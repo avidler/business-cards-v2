@@ -1,5 +1,6 @@
 import './App.css';
 import BusinessCard from './components/BusinessCard.jsx'
+import NewMember from './components/NewMember.jsx'
 
 function App() {
   fetch("./data.json")
@@ -19,6 +20,7 @@ function App() {
   return (
     <div className="App">
       <BusinessCard />
+      <NewMember />
     </div>
   );
 }

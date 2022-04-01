@@ -3,10 +3,6 @@ import image from '../assets/images/face01.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
-const element = <FontAwesomeIcon icon={faEnvelope} />
-
-
-
 export default function BusinessCard() {
 
     return (
