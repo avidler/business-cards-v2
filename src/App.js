@@ -1,4 +1,5 @@
 import './App.css';
+import Header from './components/Header.js'
 import BusinessCard from './components/BusinessCard.jsx'
 import NewMember from './components/NewMember.jsx'
 
@@ -19,6 +20,7 @@ function App() {
   });
   return (
     <div className="App">
+      <Header />
       <BusinessCard />
       <NewMember />
     </div>
